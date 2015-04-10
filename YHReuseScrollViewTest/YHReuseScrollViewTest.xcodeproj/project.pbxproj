@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184281E61AD7B910005CE381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184281E51AD7B910005CE381 /* main.m */; };
+		184281E91AD7B910005CE381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184281E81AD7B910005CE381 /* AppDelegate.m */; };
+		184281EC1AD7B910005CE381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184281EB1AD7B910005CE381 /* ViewController.m */; };
+		184281EF1AD7B910005CE381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184281ED1AD7B910005CE381 /* Main.storyboard */; };
+		184281F11AD7B910005CE381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184281F01AD7B910005CE381 /* Images.xcassets */; };
+		184281F41AD7B910005CE381 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184281F21AD7B910005CE381 /* LaunchScreen.xib */; };
+		184282001AD7B910005CE381 /* YHReuseScrollViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184281FF1AD7B910005CE381 /* YHReuseScrollViewTestTests.m */; };
+		184282121AD7B9E1005CE381 /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184282111AD7B9E1005CE381 /* TestTableView.m */; };
+		184282181AD7BB11005CE381 /* YHReuseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184282151AD7BB11005CE381 /* YHReuseScrollView.m */; };
+		184282191AD7BB11005CE381 /* YHReuseSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184282171AD7BB11005CE381 /* YHReuseSegmentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184281FA1AD7B910005CE381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184281D81AD7B910005CE381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184281DF1AD7B910005CE381;
+			remoteInfo = YHReuseScrollViewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184281E01AD7B910005CE381 /* YHReuseScrollViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHReuseScrollViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184281E41AD7B910005CE381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184281E51AD7B910005CE381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184281E71AD7B910005CE381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184281E81AD7B910005CE381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184281EA1AD7B910005CE381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184281EB1AD7B910005CE381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184281EE1AD7B910005CE381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184281F01AD7B910005CE381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		184281F31AD7B910005CE381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		184281F91AD7B910005CE381 /* YHReuseScrollViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHReuseScrollViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184281FE1AD7B910005CE381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184281FF1AD7B910005CE381 /* YHReuseScrollViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHReuseScrollViewTestTests.m; sourceTree = "<group>"; };
+		184282101AD7B9E1005CE381 /* TestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		184282111AD7B9E1005CE381 /* TestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
+		184282141AD7BB11005CE381 /* YHReuseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHReuseScrollView.h; sourceTree = "<group>"; };
+		184282151AD7BB11005CE381 /* YHReuseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHReuseScrollView.m; sourceTree = "<group>"; };
+		184282161AD7BB11005CE381 /* YHReuseSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHReuseSegmentView.h; sourceTree = "<group>"; };
+		184282171AD7BB11005CE381 /* YHReuseSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHReuseSegmentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184281DD1AD7B910005CE381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184281F61AD7B910005CE381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184281D71AD7B910005CE381 = {
+			isa = PBXGroup;
+			children = (
+				184282131AD7BB11005CE381 /* YHReuseScrollView */,
+				184281E21AD7B910005CE381 /* YHReuseScrollViewTest */,
+				184281FC1AD7B910005CE381 /* YHReuseScrollViewTestTests */,
+				184281E11AD7B910005CE381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184281E11AD7B910005CE381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184281E01AD7B910005CE381 /* YHReuseScrollViewTest.app */,
+				184281F91AD7B910005CE381 /* YHReuseScrollViewTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184281E21AD7B910005CE381 /* YHReuseScrollViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				184282101AD7B9E1005CE381 /* TestTableView.h */,
+				184282111AD7B9E1005CE381 /* TestTableView.m */,
+				184281E71AD7B910005CE381 /* AppDelegate.h */,
+				184281E81AD7B910005CE381 /* AppDelegate.m */,
+				184281EA1AD7B910005CE381 /* ViewController.h */,
+				184281EB1AD7B910005CE381 /* ViewController.m */,
+				184281ED1AD7B910005CE381 /* Main.storyboard */,
+				184281F01AD7B910005CE381 /* Images.xcassets */,
+				184281F21AD7B910005CE381 /* LaunchScreen.xib */,
+				184281E31AD7B910005CE381 /* Supporting Files */,
+			);
+			path = YHReuseScrollViewTest;
+			sourceTree = "<group>";
+		};
+		184281E31AD7B910005CE381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184281E41AD7B910005CE381 /* Info.plist */,
+				184281E51AD7B910005CE381 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184281FC1AD7B910005CE381 /* YHReuseScrollViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				184281FF1AD7B910005CE381 /* YHReuseScrollViewTestTests.m */,
+				184281FD1AD7B910005CE381 /* Supporting Files */,
+			);
+			path = YHReuseScrollViewTestTests;
+			sourceTree = "<group>";
+		};
+		184281FD1AD7B910005CE381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184281FE1AD7B910005CE381 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184282131AD7BB11005CE381 /* YHReuseScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				184282141AD7BB11005CE381 /* YHReuseScrollView.h */,
+				184282151AD7BB11005CE381 /* YHReuseScrollView.m */,
+				184282161AD7BB11005CE381 /* YHReuseSegmentView.h */,
+				184282171AD7BB11005CE381 /* YHReuseSegmentView.m */,
+			);
+			name = YHReuseScrollView;
+			path = ../YHReuseScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184281DF1AD7B910005CE381 /* YHReuseScrollViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184282031AD7B910005CE381 /* Build configuration list for PBXNativeTarget "YHReuseScrollViewTest" */;
+			buildPhases = (
+				184281DC1AD7B910005CE381 /* Sources */,
+				184281DD1AD7B910005CE381 /* Frameworks */,
+				184281DE1AD7B910005CE381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHReuseScrollViewTest;
+			productName = YHReuseScrollViewTest;
+			productReference = 184281E01AD7B910005CE381 /* YHReuseScrollViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184281F81AD7B910005CE381 /* YHReuseScrollViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184282061AD7B910005CE381 /* Build configuration list for PBXNativeTarget "YHReuseScrollViewTestTests" */;
+			buildPhases = (
+				184281F51AD7B910005CE381 /* Sources */,
+				184281F61AD7B910005CE381 /* Frameworks */,
+				184281F71AD7B910005CE381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184281FB1AD7B910005CE381 /* PBXTargetDependency */,
+			);
+			name = YHReuseScrollViewTestTests;
+			productName = YHReuseScrollViewTestTests;
+			productReference = 184281F91AD7B910005CE381 /* YHReuseScrollViewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184281D81AD7B910005CE381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = zhouyehong;
+				TargetAttributes = {
+					184281DF1AD7B910005CE381 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					184281F81AD7B910005CE381 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 184281DF1AD7B910005CE381;
+					};
+				};
+			};
+			buildConfigurationList = 184281DB1AD7B910005CE381 /* Build configuration list for PBXProject "YHReuseScrollViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184281D71AD7B910005CE381;
+			productRefGroup = 184281E11AD7B910005CE381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184281DF1AD7B910005CE381 /* YHReuseScrollViewTest */,
+				184281F81AD7B910005CE381 /* YHReuseScrollViewTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184281DE1AD7B910005CE381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184281EF1AD7B910005CE381 /* Main.storyboard in Resources */,
+				184281F41AD7B910005CE381 /* LaunchScreen.xib in Resources */,
+				184281F11AD7B910005CE381 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184281F71AD7B910005CE381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184281DC1AD7B910005CE381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184281EC1AD7B910005CE381 /* ViewController.m in Sources */,
+				184282181AD7BB11005CE381 /* YHReuseScrollView.m in Sources */,
+				184281E91AD7B910005CE381 /* AppDelegate.m in Sources */,
+				184281E61AD7B910005CE381 /* main.m in Sources */,
+				184282191AD7BB11005CE381 /* YHReuseSegmentView.m in Sources */,
+				184282121AD7B9E1005CE381 /* TestTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184281F51AD7B910005CE381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184282001AD7B910005CE381 /* YHReuseScrollViewTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184281FB1AD7B910005CE381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184281DF1AD7B910005CE381 /* YHReuseScrollViewTest */;
+			targetProxy = 184281FA1AD7B910005CE381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184281ED1AD7B910005CE381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184281EE1AD7B910005CE381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184281F21AD7B910005CE381 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184281F31AD7B910005CE381 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184282011AD7B910005CE381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184282021AD7B910005CE381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184282041AD7B910005CE381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHReuseScrollViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184282051AD7B910005CE381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHReuseScrollViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184282071AD7B910005CE381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YHReuseScrollViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHReuseScrollViewTest.app/YHReuseScrollViewTest";
+			};
+			name = Debug;
+		};
+		184282081AD7B910005CE381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YHReuseScrollViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHReuseScrollViewTest.app/YHReuseScrollViewTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184281DB1AD7B910005CE381 /* Build configuration list for PBXProject "YHReuseScrollViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184282011AD7B910005CE381 /* Debug */,
+				184282021AD7B910005CE381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184282031AD7B910005CE381 /* Build configuration list for PBXNativeTarget "YHReuseScrollViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184282041AD7B910005CE381 /* Debug */,
+				184282051AD7B910005CE381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184282061AD7B910005CE381 /* Build configuration list for PBXNativeTarget "YHReuseScrollViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184282071AD7B910005CE381 /* Debug */,
+				184282081AD7B910005CE381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184281D81AD7B910005CE381 /* Project object */;
+}
