@@ -1,7 +1,7 @@
 # YHReuseScrollView
 iOS,Reuse UIScrollView
 
- ![image](https://github.com/yehongZhou/YHReuserScrollView/blob/master/screenshot.gif)
+ ![image](https://github.com/yehongZhou/YHReuseScrollView/blob/master/screenshot.gif)
  
 Usage：
 
