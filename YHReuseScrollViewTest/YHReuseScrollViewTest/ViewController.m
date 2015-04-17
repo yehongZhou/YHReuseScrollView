@@ -31,7 +31,7 @@
     NSArray *titles = @[@"title0",@"t1",@"reuse scrollview2",@"test title3",@"title4",@"page5"];
     NSInteger defalutPage = 1;
     
-
+    
     [_segView setSegmentTitles:titles currentPage:defalutPage];
     __weak typeof(self) _self = self;
     _segView.segmentClickAction = ^(NSInteger page){
@@ -43,7 +43,7 @@
     _scrollView.reuseSegmentView = _segView;
 }
 
-
+#pragma mark YHReuseScrollViewDatasource
 -(id<IYHReuseScrollView>)reuseView:(YHReuseScrollView*)scrollView{
     TestTableView *tableView = [[TestTableView alloc] initWithFrame:scrollView.bounds];
     tableView.backgroundColor = [UIColor whiteColor];

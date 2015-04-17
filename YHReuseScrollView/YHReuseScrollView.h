@@ -15,7 +15,6 @@
 @interface YHReuseScrollView : UIScrollView
 @property(nonatomic,assign)NSInteger totalPages;
 @property(nonatomic,strong)NSMutableArray *pageDatas;
-//@property(nonatomic,assign)Class reuseViewClass;
 @property(nonatomic,assign)id<YHReuseScrollViewDatasource> reuseViewDatasource;
 @property(nonatomic,assign)YHReuseSegmentView *reuseSegmentView;
 
@@ -38,8 +37,6 @@
 @required
 @property(nonatomic,assign)NSInteger page;
 @property(nonatomic,assign)YHReuseScrollView *reuseScrollView;
-//+(UIView*)createInstanceView:(CGRect)frame;
-//-(UIView*)view;
 -(void)yhReuseScrollView:(YHReuseScrollView*)scrollView willShowPage:(NSInteger)page;
 -(void)yhReuseScrollView:(YHReuseScrollView*)scrollView didShowPage:(NSInteger)page;
 @end
